@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	
+}
+
+/*
+COL (< 575) //Celular //En algunos casos XS //XS significa extra pequeño (en español)
+SM (576 - 767) //Smort //Celular //Pequeño
+MD (768 - 991) //Tablet //abieración //Mediano
+LG (992 - 1199)//Monitores antiguos o tables de alta resolución //Largo
+XL (1200 > )//Monitores grande de escritorio o laptop //Extra largo
+*/
+
+/* EN SM mi teléfono no le da */
+
+/* max 767*/
+
+	.casa{
+		width: 100%;
+		display: flex;
+		height: 100vh;
+		justify-content: center;
+		align-items: center;
+		background: #DEDEDE;
+	}
+
+	video{
+		width: 500px;
+	}
+
+	@media screen and (min-width: 0) and (max-width: 500px){ 
+
+		video{
+			width: 400px;
+		}
+
+}
+
+
+@media screen and (min-width: 600px){
+
+		video{
+			width: 600px;
+		}
+
+}
